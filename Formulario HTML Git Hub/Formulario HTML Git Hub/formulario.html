@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prueba de Formulario</title>
+</head>
+
+<body>
+
+<h1>Formulario</h1>
+<h3> Ingreso de Datos:</h3>
+
+<!--Ingreso de nombre y apellido-->
+Nombre:
+<input type="text" name="Nombre" maxlength="50"/>
+<br>
+<br>
+Apellido:
+<input type="text" name="Apellido" maxlength="50"/>
+<br>
+<br>
+
+<!--Seleccion de Sexo-->
+
+Sexo:
+<input type="radio" name="SexoH" value="H"/>
+Hombre
+<input type="radio" name="SexoF" value="M"/>
+Mujer
+<br>
+<br>
+
+<!--Correo Electronico-->
+
+Correo Electronico:
+<input type="text" name="Correo" maxlength="70"/>
+<br>
+<br>
+
+<!--Poblacion-->
+
+Poblacion:
+<input type="text" name="Poblacion" list="Poblacion"/>
+<datalist id="Poblacion">
+    <option value="Argentina"></option>
+    <option value="Brasil"></option>
+    <option value="Colombia"></option>
+    <option value="España"></option>
+    <option value="Estados Unidos"></option>
+</datalist>
+<br>
+<br>
+
+<!--Descripcion-->
+
+Descripcion:
+<br>
+<textarea name="Descripcion" rows="5" cols="40" style="resize:none"></textarea>
+<br>
+<br>
+
+<!--Señale la opcion que requiera-->
+<input type="checkbox" name="Info" checked="checked"/>
+Deseo recibir informacion
+<br>
+<br>
+<input type="checkbox" name="Term y Cond" checked="checked"/>
+Declaro haber leido terminos y condiciones
+<br>
+<br>
+
+<!--Boton Enviar-->
+<button type="submit">Enviar</button>
+
+</body>
+
+
+
+
+
+</html>
